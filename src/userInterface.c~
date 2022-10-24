@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+  puts("Welcome");
+  int a = 1;
+    while(a){
+    puts("Enter Prompt");
+    int c;
+    while((c = getchar()) == '\n'){
+      if (c == EOF){
+	printf("%c", c);
+	a = 0;
+	break;
+      }
+    }
+    }
+}
